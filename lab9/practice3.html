@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EECS 348 Practice 3</title>
+    </head>
+
+    <body>
+        <h1>Password Tester</h1>
+        <h4>A program has been designed to determine correctness of passwords</h4>
+
+
+        Enter password: <input type="password" id="password1">
+        <button onclick="show_password('password1')">Show Password</button>
+
+        <br><br>
+
+        Re-Enter password: <input type="password" id="password2">
+        <button onclick="show_password('password2')">Show Password</button>
+
+        <br><br>
+
+        <button onclick="check_passwords()">Test Passwords</button>
+
+        <p id="Changed"></p>
+        <script src="practice3.js"></script>
+    </body>
+</html>
